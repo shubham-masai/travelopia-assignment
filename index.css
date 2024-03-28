@@ -59,7 +59,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(172, 53, 105, 0.5);
+  /* background-color: rgba(172, 53, 105, 0.5); */
+  background-color: rgba(96, 19, 52, 0.5);
 }
 
 /* Title and Button Styles */
@@ -98,9 +99,9 @@ body {
 
 .explore-text {
   display: block;
-  font-size: 3rem;
-  font-weight: 500;
-  letter-spacing: 1.2rem;
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: 1rem;
   margin-bottom: 0.6rem;
   animation: slideInFromLeft 1s ease-in-out forwards;
 }
@@ -122,9 +123,9 @@ body {
 .description-text {
   font-size: 24px;
   display: block;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
   margin-bottom: 2rem;
   transform: translateX(-1.1rem);
   animation: slideInFromRight 1s ease-in-out forwards;
@@ -172,6 +173,65 @@ body {
   font-weight: 500;
 }
 
+
+
+/* pop-up */
+.hidden-popup {
+  display: none;
+}
+
+.popup-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(3px);
+  z-index: 2;
+}
+
+.popup-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.popup-content {
+  text-align: center;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.icon {
+  font-size: 2rem;
+  color: rgb(84, 146, 84);
+}
+
+.popup-text {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.close-popup-button{
+  padding: 10px 20px;
+  background-color: #b32f96;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 1rem;
+}
+ 
+
 /* Media Query for max-width: 768px */
 @media screen and (max-width: 768px) {
   .footer {
@@ -184,9 +244,9 @@ body {
   }
 
   .description-text {
-    font-size: 1rem;
-    letter-spacing: 0.3rem;
-    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.6rem;
   }
 
   .button {
@@ -207,9 +267,9 @@ body {
   }
 
   .description-text {
-    font-size: 0.8rem;
-    letter-spacing: 0.2rem;
-    margin-bottom: 0.5rem
+    font-size: 0.5rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.2rem
   }
 
   .button {
@@ -217,3 +277,5 @@ body {
     padding: 6px 12px;
   }
 }
+
+
