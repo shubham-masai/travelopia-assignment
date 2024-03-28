@@ -25,7 +25,8 @@ This is an assignment project for Travelopia, featuring a comprehensive webpage 
 
 ![Screenshot (2435)](https://github.com/shubham-masai/travelopia-assignment/assets/130532573/8a92004c-2e7f-4b4d-84f8-74bb855155b2)
 
-![Screenshot (2436)](https://github.com/shubham-masai/travelopia-assignment/assets/130532573/30be437b-ef54-42c5-b1eb-0a31218ea245)
+ 
+![Screenshot (2446)](https://github.com/shubham-masai/travelopia-assignment/assets/130532573/fc951e97-255e-4848-b7f2-a0cba5413233)
 
 ![Screenshot (2437)](https://github.com/shubham-masai/travelopia-assignment/assets/130532573/127babbd-255f-447a-91f3-da67246ac0b3)
 
